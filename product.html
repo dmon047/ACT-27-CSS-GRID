@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            /* 3 columns */
+            gap: 20px;
+            /* Space between items */
+            padding: 20px;
+        }
+        
+        .grid-item {
+            background-color: #f1e5ab;
+            padding: 15px;
+            border: 1px solid #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>List of Products</h1>
+    <div class="grid-container">
+        <div class="grid-item">SHOES</div>
+        <div class="grid-item">JEWERLY</div>
+        <div class="grid-item">HATS</div>
+        <div class="grid-item">SOCKS</div>
+        <div class="grid-item">SHIRTS</div>
+        <div class="grid-item">JEANS</div>
+    </div>
+</body>
+
+</html>
